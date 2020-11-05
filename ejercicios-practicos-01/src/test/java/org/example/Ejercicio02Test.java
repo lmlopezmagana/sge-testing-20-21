@@ -56,7 +56,8 @@ public class Ejercicio02Test {
              arguments(Collections.emptyList(), Collections.emptyList(), Collections.emptyList()),
              arguments(List.of(1), List.of(1), List.of(1)),
              arguments(List.of(1), List.of(2), Collections.emptyList()),
-             arguments(List.of(1,2), List.of(2,3), List.of(2))
+                arguments(List.of(1,2), List.of(2,3), List.of(2)),
+                arguments(List.of(1,2,3,4), List.of(2,3,4,5), List.of(2,3,4))
         );
 
     }
