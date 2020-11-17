@@ -26,10 +26,8 @@ class ServicioMeteoTest {
 
 
     /**
-     *
+     * Lista con algunos datos de prueba
      */
-
-
     static List<RegistroMeteorologico> datos = List.of(
             new RegistroMeteorologico(1l, LocalDate.of(2020, 11, 1), "Úbeda", "Jaén", 20, 10),
             new RegistroMeteorologico(2l, LocalDate.of(2020, 11, 2), "Triana", "Sevilla", 25, 16),
@@ -38,6 +36,7 @@ class ServicioMeteoTest {
 
             );
 
+    // El promedio de la temperatura media de los datos de prueba es este
     static double media = 17.475;
 
 
@@ -45,10 +44,13 @@ class ServicioMeteoTest {
     @Test
     void temperaturaMediaDelMesPorProvinciaExito() {
 
+        // Cuando invoquemos al método findAll del repositorio meteorologico devuelve la lista de datos de prueba
         Mockito.when(repositorio.findAll()).thenReturn(datos);
 
+        // Resultado: temperatura media por provincia (de los datos de prueba)
         Map<String, Double> result = Map.of("Jaén", 16.25, "Sevilla", 20.5, "Córdoba", 16.9);
 
+        // Aserto
         assertEquals(result, servicio.temperaturaMediaDelMesPorProvincia("Noviembre"));
 
 
@@ -60,11 +62,17 @@ class ServicioMeteoTest {
     @Test
     void temperaturaMediaProvinciaEntreFechas() {
 
+        // Cuando invoquemos al método findAll del repositorio meteorologico devuelve la lista de datos de prueba
         Mockito.when(repositorio.findAll()).thenReturn(datos);
 
+        // Resultado
         double result = media;
 
-        assertEquals(result, servicio.temperaturaMediaEntreFechas(LocalDate.of(2020,11,1), LocalDate.of(2020,11,4)));
+        // Aserto
+        LocalDate inicio = LocalDate.of(2020,11,1),
+                fin = LocalDate.of(2020,11,4);
+
+        assertEquals(result, servicio.temperaturaMediaEntreFechas(inicio, fin));
 
 
     }
