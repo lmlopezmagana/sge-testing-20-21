@@ -1,6 +1,8 @@
 package com.salesianostriana.dam.ejemplotestingspringboot;
 
-import org.apache.tomcat.jni.Local;
+import com.salesianostriana.dam.ejemplotestingspringboot.modelo.RegistroMeteorologico;
+import com.salesianostriana.dam.ejemplotestingspringboot.repositorio.RegistroMeteorologicoRepo;
+import com.salesianostriana.dam.ejemplotestingspringboot.servicio.ServicioMeteo;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

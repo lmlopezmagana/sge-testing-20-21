@@ -1,5 +1,6 @@
-package com.salesianostriana.dam.ejemplotestingspringboot;
+package com.salesianostriana.dam.ejemplotestingspringboot.repositorio;
 
+import com.salesianostriana.dam.ejemplotestingspringboot.modelo.RegistroMeteorologico;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.time.LocalDate;

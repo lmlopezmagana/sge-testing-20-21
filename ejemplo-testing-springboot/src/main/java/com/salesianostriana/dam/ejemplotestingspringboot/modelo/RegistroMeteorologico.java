@@ -1,4 +1,4 @@
-package com.salesianostriana.dam.ejemplotestingspringboot;
+package com.salesianostriana.dam.ejemplotestingspringboot.modelo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

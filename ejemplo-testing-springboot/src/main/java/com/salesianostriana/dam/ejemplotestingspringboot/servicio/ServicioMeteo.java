@@ -1,15 +1,14 @@
-package com.salesianostriana.dam.ejemplotestingspringboot;
+package com.salesianostriana.dam.ejemplotestingspringboot.servicio;
 
+import com.salesianostriana.dam.ejemplotestingspringboot.repositorio.RegistroMeteorologicoRepo;
+import com.salesianostriana.dam.ejemplotestingspringboot.modelo.RegistroMeteorologico;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
 import java.time.format.TextStyle;
-import java.time.temporal.ChronoUnit;
 import java.util.Locale;
 import java.util.Map;
-import java.util.SortedSet;
-import java.util.TreeMap;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
@@ -43,7 +42,7 @@ public class ServicioMeteo {
 
     private double mediaGenerica(LocalDate fechaInicio, LocalDate fechaFin, String provincia) {
 
-        Predicate<RegistroMeteorologico> predicado =  r -> r.getFecha().isAfter(fechaInicio.minusDays(1)) && r.getFecha().isBefore(fechaFin.plusDays(1));
+        Predicate<RegistroMeteorologico> predicado = r -> r.getFecha().isAfter(fechaInicio.minusDays(1)) && r.getFecha().isBefore(fechaFin.plusDays(1));
         if (provincia != null) {
             predicado = predicado.and(r -> r.getProvincia().equalsIgnoreCase(provincia));
         }

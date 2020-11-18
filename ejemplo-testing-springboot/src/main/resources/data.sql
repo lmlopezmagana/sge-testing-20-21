@@ -3,9 +3,9 @@ INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-21','Zumarraga','Gipuzkoa',16.7,4.5);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-03-04','Fuente de Cantos','Badajoz',16.8,7.1);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-06-16','Pontons','Barcelona',24.4,9.8);
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-09-06','Marbella','Málaga',26.2,23.9);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-10-13','Agurain/Salvatierra','Araba/Álava',24.5,16.1);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-09-02','Almadén de la Plata','Sevilla',35.4,21.0);
-INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-09-06','Marbella','Málaga',26.2,23.9);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-11-09','Jaraicejo','Cáceres',11.5,3.1);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-11-28','Valls','Tarragona',19.0,9.8);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-12-08','Artesa de Segre','Lleida',6.0,4.8);
@@ -247,7 +247,7 @@ INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-03-22','Ibiza, Aeropuerto','Illes Balears',19.2,11.0);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-12-23','Almadén','Ciudad Real',16.9,7.7);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-09-25','Vallehermoso, Dama','Santa Cruz de Tenerife',27.4,17.9);
-INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-10','Esterri d'Àneu','Lleida',22.5,9.0);
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-10','Esterri d Àneu','Lleida',22.5,9.0);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-09-26','Puerto Lumbreras','Murcia',29.0,17.9);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-11-12','Briviesca','Burgos',10.5,4.1);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-07-18','Alcoy/Alcoi','Alacant/Alicante',32.7,18.5);
@@ -284,7 +284,7 @@ INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-04-23','A Coruña','A Coruña',14.2,8.0);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-08-06','Moià','Barcelona',31.7,19.7);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-07-17','Linares','Jaén',33.1,19.8);
-INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-09-08','Les Planes d'Hostoles','Girona',22.7,11.4);
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-09-08','Les Planes d Hostoles','Girona',22.7,11.4);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-03-30','Vimianzo','A Coruña',19.0,5.4);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-04-09','Zafra','Badajoz',15.3,8.0);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-01-31','Mérida','Badajoz',14.9,11.2);
@@ -374,7 +374,7 @@ INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-01-09','Cabrales','Asturias',7.1,4.1);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-08-24','Barcelona Aeropuerto','Barcelona',29.3,21.7);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-01-27','Montanejos','Castelló/Castellón',11.7,5.0);
-INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-02-04','Muro, S'Albufera','Illes Balears',13.3,2.5);
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-02-04','Muro, S Albufera','Illes Balears',13.3,2.5);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-03-21','Olite/Erriberri','Navarra',16.2,-0.8);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-09-11','Sardón de Duero','Valladolid',24.0,11.2);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-09-16','Aroche','Huelva',31.6,15.8);
@@ -812,7 +812,7 @@ INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-30','Puerto El Pico','Ávila',25.1,0.3);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-11-02','Sos del Rey Católico','Zaragoza',16.9,12.4);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-11-29','Eivissa','Illes Balears',22.3,9.8);
-INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-25','Castelló d'Empúries','Girona',24.2,14.7);
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-25','Castelló d Empúries','Girona',24.2,14.7);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-01-31','Morales del Toro','Zamora',11.7,7.8);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-11-02','Aldeanueva de Serrezuela','Segovia',13.5,9.1);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-11-27','Tarragona','Tarragona',20.7,11.2);
@@ -823,9 +823,9 @@ INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-11-18','Aragüés del Puerto','Huesca',4.9,-2.5);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-02-11','El Pinar, Depósito','Santa Cruz de Tenerife',20.1,13.3);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-06-12','Alajar','Huelva',28.8,14.9);
-INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-03-08','Muro, S'Albufera','Illes Balears',18.9,3.6);
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-03-08','Muro, S Albufera','Illes Balears',18.9,3.6);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-07-01','Garrucha, Puerto','Almería',28.8,23.1);
-INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-06-27','Esterri d'Àneu','Lleida',36.7,10.2);
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-06-27','Esterri d Àneu','Lleida',36.7,10.2);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-09-18','Muñotello','Ávila',23.1,10.8);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-12-21','Arico','Santa Cruz de Tenerife',21.7,12.4);
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-11-19','Láujar de Andarax','Almería',8.2,0.7);
