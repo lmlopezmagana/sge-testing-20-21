@@ -46234,3 +46234,123 @@ INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-06-27','Esterri d'Ã€neu','Lleida[*]',36.7,10.2)"
 Syntax error in SQL statement "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-06-27','Esterri d'Ã€neu','Lleida[*]',36.7,10.2)"; SQL statement:
 INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-06-27','Esterri d'Ã€neu','Lleida',36.7,10.2) [42000-200]
+2020-11-18 06:26:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-10','Esterri d'Ã€neu','Lleida[*]',22.5,9.0)"
+Syntax error in SQL statement "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-10','Esterri d'Ã€neu','Lleida[*]',22.5,9.0)"; SQL statement:
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-10','Esterri d'Ã€neu','Lleida',22.5,9.0) [42000-200]
+2020-11-18 06:26:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-09-08','Les Planes d'Hostoles','Girona[*]',22.7,11.4)"
+Syntax error in SQL statement "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-09-08','Les Planes d'Hostoles','Girona[*]',22.7,11.4)"; SQL statement:
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-09-08','Les Planes d'Hostoles','Girona',22.7,11.4) [42000-200]
+2020-11-18 06:26:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-02-04','Muro, S'Albufera','Illes Balears[*]',13.3,2.5)"
+Syntax error in SQL statement "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-02-04','Muro, S'Albufera','Illes Balears[*]',13.3,2.5)"; SQL statement:
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-02-04','Muro, S'Albufera','Illes Balears',13.3,2.5) [42000-200]
+2020-11-18 06:26:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-25','CastellÃ³ d'EmpÃºries','Girona[*]',24.2,14.7)"
+Syntax error in SQL statement "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-25','CastellÃ³ d'EmpÃºries','Girona[*]',24.2,14.7)"; SQL statement:
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-25','CastellÃ³ d'EmpÃºries','Girona',24.2,14.7) [42000-200]
+2020-11-18 06:26:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-03-08','Muro, S'Albufera','Illes Balears[*]',18.9,3.6)"
+Syntax error in SQL statement "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-03-08','Muro, S'Albufera','Illes Balears[*]',18.9,3.6)"; SQL statement:
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-03-08','Muro, S'Albufera','Illes Balears',18.9,3.6) [42000-200]
+2020-11-18 06:26:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-06-27','Esterri d'Ã€neu','Lleida[*]',36.7,10.2)"
+Syntax error in SQL statement "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-06-27','Esterri d'Ã€neu','Lleida[*]',36.7,10.2)"; SQL statement:
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-06-27','Esterri d'Ã€neu','Lleida',36.7,10.2) [42000-200]
+2020-11-18 06:29:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-10','Esterri d'Ã€neu','Lleida[*]',22.5,9.0)"
+Syntax error in SQL statement "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-10','Esterri d'Ã€neu','Lleida[*]',22.5,9.0)"; SQL statement:
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-10','Esterri d'Ã€neu','Lleida',22.5,9.0) [42000-200]
+2020-11-18 06:29:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-09-08','Les Planes d'Hostoles','Girona[*]',22.7,11.4)"
+Syntax error in SQL statement "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-09-08','Les Planes d'Hostoles','Girona[*]',22.7,11.4)"; SQL statement:
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-09-08','Les Planes d'Hostoles','Girona',22.7,11.4) [42000-200]
+2020-11-18 06:29:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-02-04','Muro, S'Albufera','Illes Balears[*]',13.3,2.5)"
+Syntax error in SQL statement "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-02-04','Muro, S'Albufera','Illes Balears[*]',13.3,2.5)"; SQL statement:
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-02-04','Muro, S'Albufera','Illes Balears',13.3,2.5) [42000-200]
+2020-11-18 06:29:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-25','CastellÃ³ d'EmpÃºries','Girona[*]',24.2,14.7)"
+Syntax error in SQL statement "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-25','CastellÃ³ d'EmpÃºries','Girona[*]',24.2,14.7)"; SQL statement:
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-25','CastellÃ³ d'EmpÃºries','Girona',24.2,14.7) [42000-200]
+2020-11-18 06:29:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-03-08','Muro, S'Albufera','Illes Balears[*]',18.9,3.6)"
+Syntax error in SQL statement "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-03-08','Muro, S'Albufera','Illes Balears[*]',18.9,3.6)"; SQL statement:
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-03-08','Muro, S'Albufera','Illes Balears',18.9,3.6) [42000-200]
+2020-11-18 06:29:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-06-27','Esterri d'Ã€neu','Lleida[*]',36.7,10.2)"
+Syntax error in SQL statement "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-06-27','Esterri d'Ã€neu','Lleida[*]',36.7,10.2)"; SQL statement:
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-06-27','Esterri d'Ã€neu','Lleida',36.7,10.2) [42000-200]
+2020-11-18 06:30:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-10','Esterri d'Ã€neu','Lleida[*]',22.5,9.0)"
+Syntax error in SQL statement "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-10','Esterri d'Ã€neu','Lleida[*]',22.5,9.0)"; SQL statement:
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-10','Esterri d'Ã€neu','Lleida',22.5,9.0) [42000-200]
+2020-11-18 06:30:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-09-08','Les Planes d'Hostoles','Girona[*]',22.7,11.4)"
+Syntax error in SQL statement "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-09-08','Les Planes d'Hostoles','Girona[*]',22.7,11.4)"; SQL statement:
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-09-08','Les Planes d'Hostoles','Girona',22.7,11.4) [42000-200]
+2020-11-18 06:30:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-02-04','Muro, S'Albufera','Illes Balears[*]',13.3,2.5)"
+Syntax error in SQL statement "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-02-04','Muro, S'Albufera','Illes Balears[*]',13.3,2.5)"; SQL statement:
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-02-04','Muro, S'Albufera','Illes Balears',13.3,2.5) [42000-200]
+2020-11-18 06:30:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-25','CastellÃ³ d'EmpÃºries','Girona[*]',24.2,14.7)"
+Syntax error in SQL statement "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-25','CastellÃ³ d'EmpÃºries','Girona[*]',24.2,14.7)"; SQL statement:
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-25','CastellÃ³ d'EmpÃºries','Girona',24.2,14.7) [42000-200]
+2020-11-18 06:30:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-03-08','Muro, S'Albufera','Illes Balears[*]',18.9,3.6)"
+Syntax error in SQL statement "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-03-08','Muro, S'Albufera','Illes Balears[*]',18.9,3.6)"; SQL statement:
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-03-08','Muro, S'Albufera','Illes Balears',18.9,3.6) [42000-200]
+2020-11-18 06:30:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-06-27','Esterri d'Ã€neu','Lleida[*]',36.7,10.2)"
+Syntax error in SQL statement "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-06-27','Esterri d'Ã€neu','Lleida[*]',36.7,10.2)"; SQL statement:
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-06-27','Esterri d'Ã€neu','Lleida',36.7,10.2) [42000-200]
+2020-11-18 06:31:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-10','Esterri d'Ã€neu','Lleida[*]',22.5,9.0)"
+Syntax error in SQL statement "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-10','Esterri d'Ã€neu','Lleida[*]',22.5,9.0)"; SQL statement:
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-10','Esterri d'Ã€neu','Lleida',22.5,9.0) [42000-200]
+2020-11-18 06:31:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-09-08','Les Planes d'Hostoles','Girona[*]',22.7,11.4)"
+Syntax error in SQL statement "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-09-08','Les Planes d'Hostoles','Girona[*]',22.7,11.4)"; SQL statement:
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-09-08','Les Planes d'Hostoles','Girona',22.7,11.4) [42000-200]
+2020-11-18 06:31:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-02-04','Muro, S'Albufera','Illes Balears[*]',13.3,2.5)"
+Syntax error in SQL statement "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-02-04','Muro, S'Albufera','Illes Balears[*]',13.3,2.5)"; SQL statement:
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-02-04','Muro, S'Albufera','Illes Balears',13.3,2.5) [42000-200]
+2020-11-18 06:31:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-25','CastellÃ³ d'EmpÃºries','Girona[*]',24.2,14.7)"
+Syntax error in SQL statement "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-25','CastellÃ³ d'EmpÃºries','Girona[*]',24.2,14.7)"; SQL statement:
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-25','CastellÃ³ d'EmpÃºries','Girona',24.2,14.7) [42000-200]
+2020-11-18 06:31:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-03-08','Muro, S'Albufera','Illes Balears[*]',18.9,3.6)"
+Syntax error in SQL statement "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-03-08','Muro, S'Albufera','Illes Balears[*]',18.9,3.6)"; SQL statement:
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-03-08','Muro, S'Albufera','Illes Balears',18.9,3.6) [42000-200]
+2020-11-18 06:31:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-06-27','Esterri d'Ã€neu','Lleida[*]',36.7,10.2)"
+Syntax error in SQL statement "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-06-27','Esterri d'Ã€neu','Lleida[*]',36.7,10.2)"; SQL statement:
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-06-27','Esterri d'Ã€neu','Lleida',36.7,10.2) [42000-200]
+2020-11-18 06:33:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-10','Esterri d'Ã€neu','Lleida[*]',22.5,9.0)"
+Syntax error in SQL statement "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-10','Esterri d'Ã€neu','Lleida[*]',22.5,9.0)"; SQL statement:
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-10','Esterri d'Ã€neu','Lleida',22.5,9.0) [42000-200]
+2020-11-18 06:33:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-09-08','Les Planes d'Hostoles','Girona[*]',22.7,11.4)"
+Syntax error in SQL statement "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-09-08','Les Planes d'Hostoles','Girona[*]',22.7,11.4)"; SQL statement:
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-09-08','Les Planes d'Hostoles','Girona',22.7,11.4) [42000-200]
+2020-11-18 06:33:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-02-04','Muro, S'Albufera','Illes Balears[*]',13.3,2.5)"
+Syntax error in SQL statement "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-02-04','Muro, S'Albufera','Illes Balears[*]',13.3,2.5)"; SQL statement:
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-02-04','Muro, S'Albufera','Illes Balears',13.3,2.5) [42000-200]
+2020-11-18 06:33:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-25','CastellÃ³ d'EmpÃºries','Girona[*]',24.2,14.7)"
+Syntax error in SQL statement "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-25','CastellÃ³ d'EmpÃºries','Girona[*]',24.2,14.7)"; SQL statement:
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-05-25','CastellÃ³ d'EmpÃºries','Girona',24.2,14.7) [42000-200]
+2020-11-18 06:33:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-03-08','Muro, S'Albufera','Illes Balears[*]',18.9,3.6)"
+Syntax error in SQL statement "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-03-08','Muro, S'Albufera','Illes Balears[*]',18.9,3.6)"; SQL statement:
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-03-08','Muro, S'Albufera','Illes Balears',18.9,3.6) [42000-200]
+2020-11-18 06:33:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-06-27','Esterri d'Ã€neu','Lleida[*]',36.7,10.2)"
+Syntax error in SQL statement "INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-06-27','Esterri d'Ã€neu','Lleida[*]',36.7,10.2)"; SQL statement:
+INSERT INTO registro_meteorologico (id, fecha, estacion, provincia, temperatura_maxima, temperatura_minima) VALUES (NEXTVAL('hibernate_sequence'), '2019-06-27','Esterri d'Ã€neu','Lleida',36.7,10.2) [42000-200]

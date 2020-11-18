@@ -2,6 +2,7 @@ package com.salesianostriana.dam.ejemplotestingspringboot;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
+import java.time.LocalDate;
 import java.util.List;
 
 public interface RegistroMeteorologicoRepo
@@ -16,9 +17,14 @@ public interface RegistroMeteorologicoRepo
      * es posible que sí tengamos que implementar algún test.
      */
 
-    List<RegistroMeteorologicoRepo> findByEstacion(String estacion);
+    List<RegistroMeteorologico> findByEstacion(String estacion);
     List<RegistroMeteorologico> findByProvincia(String provincia);
 
+
+    /**
+     * Esta por ejemplo incluye más condiciones y sí que puede ser probada
+     */
+    List<RegistroMeteorologico> findByEstacionContainsIgnoreCaseAndProvinciaAndFechaBetween(String estacion, String provincia, LocalDate fechaStart, LocalDate fechaEnd);
 
 
 
